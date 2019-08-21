@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fantasy/fantasy",
+    "pages/intro/intro",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/bookrack/bookrack",
+    "pages/me/me",
+    "pages/erotica/erotica",
+    "pages/science/science",
+    "pages/last/last"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "萤囊映雪",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/index.png",
+        "selectedIconPath": "img/index_act.png"
+      },
+      {
+        "pagePath": "pages/bookrack/bookrack",
+        "text": "书架",
+        "iconPath": "img/bookrack.png",
+        "selectedIconPath": "img/bookrack_act.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "img/me.png",
+        "selectedIconPath": "img/me_act.png"
+      }
+    ]
+  }
+}
